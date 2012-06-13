@@ -18,7 +18,7 @@
 PRODUCT_COPY_FILES := \
     vendor/lge/vs920/proprietary/lib/liboncrpc.so:obj/lib/liboncrpc.so \
     vendor/lge/vs920/proprietary/lib/libnv.so:obj/lib/libnv.so \
-    vendor/lge/vs920/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    # vendor/lge/vs920/proprietary/lib/libaudio.so:obj/lib/libaudio.so \
     vendor/lge/vs920/proprietary/lib/libv8.so:obj/lib/libv8.so
 
 PRODUCT_COPY_FILES += \
@@ -83,7 +83,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vs920/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/vs920/proprietary/lib/libthermal_mitigation_fusion.so:system/lib/libthermal_mitigation_fusion.so \
     vendor/lge/vs920/proprietary/lib/libthermal_mitigation.so:system/lib/libthermal_mitigation.so \
-    # vendor/lge/vs920/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
+    vendor/lge/vs920/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/lge/vs920/proprietary/lib/libaudio_init.so:system/lib/libaudio_init.so \
     vendor/lge/vs920/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/lge/vs920/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
