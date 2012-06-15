@@ -18,7 +18,7 @@
 PRODUCT_COPY_FILES := \
     vendor/lge/vs920/proprietary/lib/liboncrpc.so:obj/lib/liboncrpc.so \
     vendor/lge/vs920/proprietary/lib/libnv.so:obj/lib/libnv.so \
-    # vendor/lge/vs920/proprietary/lib/libaudio.so:obj/lib/libaudio.so \
+    vendor/lge/vs920/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/lge/vs920/proprietary/lib/libv8.so:obj/lib/libv8.so
 
 PRODUCT_COPY_FILES += \
@@ -98,7 +98,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vs920/proprietary/lib/lib_LG_fastaf_v2.0.so:system/lib/lib_LG_fastaf_v2.0.so \
     vendor/lge/vs920/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/lge/vs920/proprietary/lib/libchromatix_imx105_preview.so:system/lib/libchromatix_imx105_preview.so \
-    vendor/lge/vs920/proprietary/lib/hw/audio.primary.msm8660.so:system/lib/hw/audio.primary.msm8660.so \
+	vendor/lge/vs920/proprietary/lib/hw/audio.primary.msm8660.so:system/lib/hw/audio.primary.msm8660.so \
     vendor/lge/vs920/proprietary/lib/hw/audio_policy.msm8660.so:system/lib/hw/audio_policy.msm8660.so \
     vendor/lge/vs920/proprietary/lib/hw/camera.msm8660.so:system/lib/hw/camera.msm8660.so \
     vendor/lge/vs920/proprietary/lib/hw/copybit.msm8660.so:system/lib/hw/copybit.msm8660.so \
